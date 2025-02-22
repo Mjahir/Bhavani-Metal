@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { ShieldCheck, Award, TrendingUp } from "lucide-react";
+import { Link } from "react-router-dom";
+
 
 const About = () => {
   return (

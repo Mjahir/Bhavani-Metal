@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 import honeyBrass from "../assets/honey-scrap.jpg";
 import vilayatiBrass from "../assets/vilayati-scrap.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -30,7 +31,7 @@ const Home = () => {
           </motion.p>
 
           <motion.a 
-            href="/Contact"
+           as={Link} href="/Contact"
             className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg inline-flex items-center transition-all"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -72,7 +73,7 @@ const Home = () => {
 
         <div className="mt-8 text-center">
           <a 
-            href="/Contact"
+           as ={Link} href="/Contact"
             className="inline-flex items-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all"
           >
             <button>Contact Us</button> <ArrowRight className="ml-2 h-5 w-5" />
