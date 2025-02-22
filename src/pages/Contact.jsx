@@ -10,10 +10,10 @@ const Contact = () => {
 
   const onSubmit = (data) => {
     emailjs.sendForm(
-      "service_wvkx7od",   // Replace with your EmailJS Service ID
-      "template_vq8n9we",  // Replace with your EmailJS Template ID
+      "service_wvkx7od",   
+      "template_vq8n9we",  
       formRef.current,
-      "jm7lmAXAWNd-i9XNp"    // Replace with your EmailJS Public Key
+      "jm7lmAXAWNd-i9XNp"  
     )
     .then(
       (result) => {

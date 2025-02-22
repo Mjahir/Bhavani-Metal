@@ -21,7 +21,7 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.6 }}
       >
-        Jay Bhavani Metal Corporation is a **trusted leader** in **brass scrap trading**, offering **high-quality** materials for various industries worldwide.
+        Jay Bhavani Metal Corporation is a trusted leader in brass scrap trading, offering high-quality materials for various industries worldwide.
       </motion.p>
 
       {/* Feature Cards Section */}
@@ -34,7 +34,7 @@ const About = () => {
           <ShieldCheck className="text-blue-500 mx-auto h-12 w-12 mb-4" />
           <h3 className="text-2xl font-semibold text-blue-800 mb-2">Quality Assurance</h3>
           <p className="text-gray-600">
-            We provide **premium-grade brass scrap**, ensuring top-notch quality for industrial use.
+            We provide premium-grade brass scrap, ensuring top-notch quality for industrial use.
           </p>
         </motion.div>
 
@@ -46,7 +46,7 @@ const About = () => {
           <Award className="text-yellow-500 mx-auto h-12 w-12 mb-4" />
           <h3 className="text-2xl font-semibold text-yellow-600 mb-2">Years of Experience</h3>
           <p className="text-gray-600">
-            With **decades of expertise**, we have built a reputation for trust and reliability in metal trading.
+            With decades of expertise, we have built a reputation for trust and reliability in metal trading.
           </p>
         </motion.div>
 
@@ -58,7 +58,7 @@ const About = () => {
           <TrendingUp className="text-green-500 mx-auto h-12 w-12 mb-4" />
           <h3 className="text-2xl font-semibold text-green-700 mb-2">Global Expansion</h3>
           <p className="text-gray-600">
-            We aim for **continuous growth**, expanding into new markets across the globe.
+            We aim for continuous growth, expanding into new markets across the globe.
           </p>
         </motion.div>
       </div>
@@ -79,7 +79,7 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.6 }}
         >
-          Our mission is to **deliver high-quality brass scrap**, **build long-term relationships**, and **expand our reach** while maintaining sustainability in the industry.
+          Our mission is to deliver high-quality brass scrap, build long-term relationships, and expand our reach while maintaining sustainability in the industry.
         </motion.p>
       </div>
     </div>

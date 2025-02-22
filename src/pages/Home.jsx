@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
-// Import images from assets
+
 import honeyBrass from "../assets/honey-scrap.jpg";
 import vilayatiBrass from "../assets/vilayati-scrap.jpg";
 
@@ -36,7 +36,7 @@ const Home = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5, duration: 0.6 }}
           >
-            Get a Quote <ArrowRight className="ml-2 h-5 w-5" />
+           <button>Get a Quote </button> <ArrowRight className="ml-2 h-5 w-5" />
           </motion.a>
         </div>
       </section>
@@ -75,7 +75,7 @@ const Home = () => {
             href="/contact"
             className="inline-flex items-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all"
           >
-            Contact Us <ArrowRight className="ml-2 h-5 w-5" />
+            <button>Contact Us</button> <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </div>
       </div>
