@@ -52,6 +52,7 @@ const Home = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
+            whileHover={{ scale: 1.05 }}
           >
             <img src={honeyBrass} alt="Honey Brass Scrap" className="w-full h-48 object-cover rounded-md mb-4" />
             <h3 className="text-xl font-semibold mb-2">Honey Brass Scrap</h3>
@@ -64,6 +65,7 @@ const Home = () => {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
+            whileHover={{ scale: 1.05 }}
           >
             <img src={vilayatiBrass} alt="Vilayati Brass Scrap" className="w-full h-48 object-cover rounded-md mb-4" />
             <h3 className="text-xl font-semibold mb-2">Vilayati Brass Scrap</h3>
