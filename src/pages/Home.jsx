@@ -37,7 +37,7 @@ const Home = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5, duration: 0.6 }}
           >
-           <button>Get a Quote </button> <ArrowRight className="ml-2 h-5 w-5" />
+           Get a Quote  <ArrowRight className="ml-2 h-5 w-5" />
           </motion.a>
         </div>
       </section>
@@ -76,7 +76,7 @@ const Home = () => {
            as ={Link} href="/Contact"
             className="inline-flex items-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all"
           >
-            <button>Contact Us</button> <ArrowRight className="ml-2 h-5 w-5" />
+            Contact Us <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </div>
       </div>
